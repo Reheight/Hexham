@@ -1,0 +1,16 @@
+name: Hexham
+version: 1.0
+description: Private Punishment System
+author: Reheight
+main: me.reheight.hexham.Main
+depend: [Vault]
+
+commands:
+   kick:
+     usage: /kick <player> [reason]
+     description: Kick a player off of the server
+     aliases: [k, ekick, hkick, hexkick, hexhamkick]
+   ban:
+     usage: /ban <player> [reason] [duration] [units]
+     description: Disallow a player from playing the server!
+     aliases: [eban, hban, hexban, hexhamkick]

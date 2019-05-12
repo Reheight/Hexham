@@ -1,0 +1,42 @@
+prefix: "&d&lCelmic Network &8\xbb"
+
+denySelf: '&fYou can not perform this action on yourself!'
+
+higherRank: '&fYou can not perform this action on members who are higher power than you!'
+  
+insufficientPermissions: '&fYou do not have sufficient permissions!'
+
+broadcastKick: '&f{kicked} has been kicked by {actor}, for {reason}!'
+
+tooLessArguments: '&fYou did not specify the correct arguments!'
+
+correctKickFormat: '&f/kick <player> <reason>'
+
+kickedPlayerNotFound: '&fThe player {player}, is not online!'
+
+appealMessage: '&fYou can appeal on our website at &nhttps://www.celmicnetwork.tk/forums'
+
+correctBanFormat: '&f/ban <player> <reason> <duration>'
+
+broadcastBan: '&f{banned} has been banned for {reason} until {duration}, by {actor}!'
+
+incorrectUnitsFormat: '&fYou must specify a correct unit format!'
+
+banError: '&fThere was an error while banning the player!'
+
+kickFormat: |-
+  &d&lCelmic Network
+  &7&oYou have been kicked!
+
+  &d&l * &7Reason: &d{reason}
+  &d&l * &7Actor: &d{actor}
+  
+banFormat: |-
+  &d&lCelmic Network
+  &7&oYou are banned from this server!
+  
+  &d&l * &7Reason: &d{reason}
+  &d&l * &7Actor: &d{actor}
+  &d&l * &7Banned on: &d{bannedDate}
+  &d&l* &7Duration: &d{duration}
+  {appeal}

@@ -9,7 +9,7 @@ public class PluginLock {
 	}
 	
 	public void checkPlugin(String key) {
-		if (!key.equals("3xC3pT10n#98")) {
+		if (!key.equals("*********")) {
 			Main.getInstance().getLogger().info("[Anti-Piracy] Key check was unnsuccessful, or there was an error!");
 			Main.getInstance().getServer().shutdown();
 			return;
